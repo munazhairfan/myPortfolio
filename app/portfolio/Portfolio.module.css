@@ -1,0 +1,25 @@
+.portfolioSection {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .projectCard {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .projectCard iframe {
+    width: 100%;
+    height: 200px;
+    border: none;
+  }
+  
+  .projectCard h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  

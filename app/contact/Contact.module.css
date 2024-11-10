@@ -1,0 +1,73 @@
+/* Contact section container */
+.contactSection {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title for the contact form */
+  .contactTitle {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* The entire form */
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Individual form fields */
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  /* Styling the input fields */
+  .input,
+  .textarea {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .input:focus,
+  .textarea:focus {
+    border-color: #4caf50;
+  }
+  
+  /* Styling the button */
+  .btn {
+    padding: 12px 20px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
