@@ -1,0 +1,30 @@
+/* Container for the footer */
+.footer {
+  background-color: #111;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+  margin-top: auto; /* Push the footer to the bottom */
+  position: relative;
+  bottom: 0;
+}
+
+/* Container inside footer */
+.container {
+  max-width: 1200px; /* Ensure footer content doesn't stretch too wide */
+  margin: 0 auto; /* Center the content */
+  padding: 0 20px; /* Add some horizontal padding */
+}
+
+/* Styling for footer links */
+.footer a {
+  color: #00b4b4;
+  margin: 0 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
